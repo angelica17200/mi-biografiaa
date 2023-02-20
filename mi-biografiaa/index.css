@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./img/fondo.jpeg');
+    background-size: cover ;
+}
+
+.box {
+    width: 500px;
+    background: rgba(0, 0,0, -4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: rgb(167, 74, 74);
+}
+
+.box-img {
+    border-radius: 50%;
+
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+.box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+#main-nav {
+    margin-top: 100px;
+    list-style: none;
+    padding-left: 0;
+}
+
+#main-nav {
+    color: bisque;
+}

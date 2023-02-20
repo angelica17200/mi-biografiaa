@@ -1,0 +1,65 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html 
+{
+    font-size: 75%; /*75% de 16px, que es el tamaño default de  la fuente*/
+    font-family: verdana, Geneva, Tahoma, sans-serif;
+
+}
+    
+
+
+
+h1
+{
+    color:rgb(103, 24, 122)
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+#page-title
+{
+    font-size: 18px;
+    font-size: monospace;
+
+
+}
+
+.title
+{
+
+}
+
+#main-nav 
+{
+    margin-top: 10px
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+#main-nav li 
+{
+    display: inline-blok
+}
+
+#main-nav a
+{
+    color:rgb(228, 238, 238)
+    background-color:
+    padding: 5px;
+    border-radius: 2px;
+    text-decoratio: none;
+}
+
+#main-nav ,padres 
+{
+    background-color:rgb(172, 49, 49)
+}
+
+/*Especificidad

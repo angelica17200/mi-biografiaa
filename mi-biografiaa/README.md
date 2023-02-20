@@ -1,5 +1,6 @@
 # mi-biografia
-Este es mi primer sitio web. Trata de mi autobiografía y algunos aspectos de mi interés## Secciones (páginas) del sitio web
+Este es mi primer sitio web. Trata de mi autobiografía y algunos aspectos de mi interés
+## Secciones (páginas) del sitio web
 
 - index.html: pagina principal del sitio. Es una portada de su autobiografias. Contiene los links a las demás secciones del  sitio.
 
