@@ -1,10 +1,30 @@
 *{
-    margin: 0;
+    margin: 3;
     padding: 0;
     box-sizing: border-box;
+    font-family: verdana, Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: capitalize;
+    text-decoration: none;
+    
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(231, 231, 217);
+    box-shadow: 0 5px 10px rgba(0, 0,0, 0-1);
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
+body 
+{
     background-image: url('./img/fondo.jpeg');
     background-size: cover ;
 }
@@ -12,10 +32,9 @@ body {
 .box {
     width: 500px;
     background: rgba(0, 0,0, -4);
-    margin: 0 auto;
-    margin-top: 4%;
-    padding: 20px;
-    color: rgb(167, 74, 74);
+    height: fit-content;
+    margin: 0 0; 
+    color: rgb(206, 214, 214);
 }
 
 .box-img {
@@ -38,11 +57,53 @@ body {
 }
 
 #main-nav {
+    
     margin-top: 100px;
     list-style: none;
     padding-left: 0;
+    text-align: right;
+
+}
+.main-nav li
+{
+    display: inline-block;
+    
 }
 
-#main-nav {
-    color: bisque;
+#main-nav li{
+    color: rgb(104, 156, 160);
+    padding: 2px;
+    text-decoration: none;    
+    display: inline-block;
+
+
+}
+#main-nav{
+    color: rgb(107, 180, 185);
+    padding: 2px;
+    text-decoration: none;   
+    margin: 0 0; 
+
+    display: inline-block;
+    padding: 0px 28px;
+
+
+}
+a{
+    color: rgb(201, 81, 81);
+    text-decoration:  none;
+}
+
+
+main-nav .padres
+{
+    background-color: rgb(99, 86, 69);
+    
+}
+nav{
+        text-align: right;
+        margin: 0 0; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
 }
